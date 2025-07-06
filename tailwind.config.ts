@@ -97,11 +97,11 @@ export default {
 				},
 				'glow-pulse': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px hsl(var(--primary) / 0.3)',
+						filter: 'drop-shadow(0 0 10px hsl(var(--primary) / 0.5))',
 						transform: 'scale(1)'
 					},
 					'50%': {
-						boxShadow: '0 0 40px hsl(var(--primary) / 0.8)',
+						filter: 'drop-shadow(0 0 25px hsl(var(--primary) / 0.9))',
 						transform: 'scale(1.02)'
 					}
 				},
